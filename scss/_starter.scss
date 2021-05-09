@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
+
+/*--- FONTS ---*/
+$textFont: "Source Sans Pro", sans-serif;
+$textHeadings: "Source Sans Pro", sans-serif;
+$fontSize: 16px;
+
+/*--- COLORS ---*/
+$primaryColor: rgb(2, 190, 206);
+$secondaryColor: rgb(43, 51, 61);
+$textColor: rgb(30, 51, 61);
+$white: #fff;
+
+$transition: 0.4s ease;
+$boxShadow: 0 5px 10px 0px rgba($secondaryColor, 0.5);
+
+/*--- RESET STYLE ---*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// BASIC STYLE
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: $textFont;
+    font-size: $fontSize;
+    line-height: 1.6;
+}
+
+.py {
+    padding: 70px 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    @media (max-width: 769px) {
+        width: 90%;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $textHeadings;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color $transition;
+}
+img {
+    display: block;
+    width: 100%;
+}
