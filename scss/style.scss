@@ -5,7 +5,7 @@
 body {
     background: url(../img/bg.jpg);
     @include bgBasic;
-    background-attachment: fixed;
+
     padding: 100px 0;
     @media (max-width: 769px) {
         padding: 10px 0;
