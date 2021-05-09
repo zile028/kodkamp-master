@@ -50,7 +50,8 @@ header {
     @include bgBasic;
     padding: 150px 0;
     @media (max-width: 769px) {
-        @include flex(center, center, column) padding: 0;
+        @include flex(center, center, column);
+        padding: 0;
         height: 100vh;
     }
     article {
