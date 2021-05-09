@@ -28,10 +28,7 @@
         <header>
             <article>
                 <h1>KodKamp by <span>WEBCON</span></h1>
-                <h5>Na kampu radimo custom WP</h5>
-                <!-- Na kampu postavljamo sajt na server
-                Na kampu radimo frntend sajta| -->
-
+                <h4>Na kampu <span class="element"></span></h4>
                 <p>KodKamp je radionica na kojoj intezivno radimo na živim projektima, upoznajemo se, družimo se,
                     smejemo, uživamo u prirodi i nacionalnoj kuhinji.</p>
                 <button>Prijavi se</button>
@@ -39,7 +36,7 @@
         </header>
 
         <!-- about -->
-        <section class="about">
+        <section class="about container py">
             <h2>O kampu</h2>
             <p>Kodiranje se uči i vežba. Najbolje i najbrže se nauči kad se to radi sa programerom na realnim
                 projektima. </p>
@@ -65,43 +62,47 @@
         </section>
 
         <!-- gallery -->
-        <section class="gallery">
+        <section class="gallery py">
             <h3>ZBOG ČEGA ORGANIZUJEMO OFFLINE DOGAĐAJ KAD IMAMO ONLINE RADIONICE</h3>
             <p>Slike govore vise od reci</p>
-            <article>
-                <div class="owl-carousel owl-theme">
-                    <div class="item"><img src="img/kamp1.jpg" alt=""></div>
-                    <div class="item"><img src="img/kamp2.jpg" alt=""></div>
-                    <div class="item"><img src="img/kamp3.jpg" alt=""></div>
-                    <div class="item"><img src="img/kamp4.jpg" alt=""></div>
-                    <div class="item"><img src="img/kamp5.jpg" alt=""></div>
-                    <div class="item"><img src="img/kamp6.jpg" alt=""></div>
-                    <div class="item"><img src="img/kamp7.jpg" alt=""></div>
-                    <div class="item"><img src="img/kamp8.jpg" alt=""></div>
-                    <div class="item"><img src="img/kamp9.jpg" alt=""></div>
-                </div>
+
+            <article class="owl-carousel owl-theme">
+                <div class="item"><img src="img/kamp1.jpg" alt=""></div>
+                <div class="item"><img src="img/kamp2.jpg" alt=""></div>
+                <div class="item"><img src="img/kamp3.jpg" alt=""></div>
+                <div class="item"><img src="img/kamp4.jpg" alt=""></div>
+                <div class="item"><img src="img/kamp5.jpg" alt=""></div>
+                <div class="item"><img src="img/kamp6.jpg" alt=""></div>
+                <div class="item"><img src="img/kamp7.jpg" alt=""></div>
+                <div class="item"><img src="img/kamp8.jpg" alt=""></div>
+                <div class="item"><img src="img/kamp9.jpg" alt=""></div>
             </article>
+
         </section>
 
         <!-- footer -->
-        <footer>
+        <footer class="py">
             <h2>Prijava</h2>
             <p>Maksimalan broj učesnika na ovom KodKampu je 20 .</p>
             <form>
-                <input type="text" placeholder="Prijavite se">
+                <input type="text" placeholder="Unesite email">
                 <button>Prijavi se</button>
             </form>
         </footer>
-
-        <!-- news -->
-        <div class="news">
-            <p>Sve novosti na nasem <a href="">FB profilu</a></p>
-        </div>
     </main>
 
+    <!-- news -->
+    <section class="news">
+        <p>Sve novosti na nasem <a href="">FB profilu</a></p>
+    </section>
 
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- typed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+        crossorigin="anonymous"></script>
 
     <!-- owl carousel js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
